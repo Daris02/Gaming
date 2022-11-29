@@ -1,0 +1,4 @@
+.container .img{
+    background-image: url('../image/hitman.jpeg');
+    background-size: cover;
+}

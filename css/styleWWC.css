@@ -1,0 +1,5 @@
+.container .img{
+    background-image: url('../image/wwc2.jpg');
+    background-size: cover;
+    background-position: -2vw;
+}

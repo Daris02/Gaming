@@ -1,0 +1,4 @@
+.container .img{
+    background-image: url('../image/spiderman.jpeg');
+    background-size: cover;
+}

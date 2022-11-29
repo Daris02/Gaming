@@ -1,0 +1,5 @@
+.container .img{
+    background-image: url('../image/blur2.jpeg');
+    /* background-position: 40vw; */
+    background-size: cover;
+}

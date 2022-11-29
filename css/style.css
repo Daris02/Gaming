@@ -1,0 +1,359 @@
+html{
+    scroll-behavior: smooth;
+}
+/* ---  HEADER  --- */
+/* ---------------------------------------------------------------- */
+.header{
+    height: 90vh;
+    width: 100.9%;
+    margin-top: -1.5vh;
+    margin-left: -0.5vw;
+    box-shadow: 0 0 1em black;
+}
+
+.header .font{
+    z-index: 1;
+    position: relative;
+    top: -90vh;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.037);
+}
+
+.header .font img{
+    height: 8vh;
+    width: 15vw;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    transition: .5s;
+}
+.header .font img:hover{
+    transform: scale(1.1);
+}
+
+.header_background{ 
+    z-index: -1;
+    overflow: hidden;
+    height: 90vh;
+    width: 100%;
+}
+
+.header_background figure{
+    position: relative;
+    top: -15vh;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: slider 20s infinite ease-in-out;
+}
+
+.header_background figure img{
+    width: 25%;
+    float: left;
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    35%{
+        left: -100%;
+    }
+    50%{
+        left: -100%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -200%;
+    }
+    100%{
+        left: -300%;
+    }
+}
+
+/* ---  NAVBAR  --- */
+/* ---------------------------------------------------------------- */
+.btn_menu .navbar{
+    z-index: 3;
+    background-color: white;
+    height: 50px;
+    width: 100.9%;
+    margin-left: -0.5vw;
+    margin-top: -2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0 0 1.5em black;
+}
+
+.btn_menu{
+    z-index: 5;
+    position: sticky;
+    top: 0vh;
+}
+
+.btn_menu img{
+    display: none;
+}
+
+.btn_menu .navbar .nav_item{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: transform .5s;
+}
+
+.btn_menu .navbar .nav_item:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+.second{
+    display: none;
+    z-index: 5;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 0 1em rgb(170, 170, 170);
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    left: 83vw;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 2vh;
+}
+.second a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0, 0, 0);
+    transition: transform .5s;
+}
+.second a:hover{
+    transform: scale(1.1);
+    color: rgba(255, 0, 0);
+}
+
+.more:hover .second{
+    display: block;
+    transition-duration: ease-in-out;
+}
+.more p:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+.more{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: 1s;
+}
+.more p{
+    transition: transform .5s;
+}
+
+
+/* ---  CONTENT (BUTTON UP) --- */
+/* ---------------------------------------------------------------- */
+.btn_monter{
+    z-index: 2;
+    position: fixed;
+    left: 90%;
+    top: 95%;
+
+    transition: transform .5s;
+}
+
+.btn_monter img{
+    width: 5vw;
+}
+
+.btn_monter:hover{
+    transform: scale(1.1);
+}
+
+/* ---  CONTENT ==  CATEGORY --- */
+/* ---------------------------------------------------------------- */
+#category{
+    height: 15vh;
+    width: 100%;
+}
+.category{
+    margin-top: 2vh;
+    height: 250vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: content;
+}
+
+h2{
+    width: 85%;
+    color: black;
+}
+
+#h2-1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 5vw;
+    bottom: -18vh;
+}
+#h2-2{
+    font-family: sans-serif;
+    position: absolute;
+    left: 5vw;
+    bottom: -67vh;
+}
+#h2-3{
+    font-family: sans-serif;
+    position: absolute;
+    left: 5vw;
+    bottom: -118vh;
+}
+#h2-4{
+    font-family: sans-serif;
+    position: absolute;
+    left: 5vw;
+    bottom: -167vh;
+}
+#h2-5{
+    font-family: sans-serif;
+    position: absolute;
+    left: 5vw;
+    bottom: -218vh;
+}
+
+.category .img{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 30vh;
+    width: 13vw;
+    border-radius: 2%;
+    box-shadow:  0 0 1em grey;
+    transition: .5s;
+}
+
+.category .img p{
+    font-family: sans-serif;
+}
+
+.category .img .heading{
+    background-color: rgba(153, 153, 153, 0.348);
+    height: 8vh;
+    width: auto;
+    padding-left: 5px;
+    margin-top: 22vh;
+    border-radius: 2%;
+    overflow: hidden;
+
+    transition: .5s;
+}
+
+.category .img .heading h4{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 0.5vh;
+}
+.category .img .heading p{
+    font-family: sans-serif;
+    color: white;
+    margin-top: -0.5vh;
+}
+
+.category .img .heading a button{
+    background-color: white;
+    color: red;
+    border: none;
+}
+.category .img .heading a button:hover{
+    background-color: red;
+    color: white;
+}
+
+.category .img:hover {
+    transform: scale(1.1); 
+}
+
+.category .img .heading:hover{
+    margin-top: 5vh;
+    height: 25vh;
+}
+
+/* ---  CONTENT ==  CONTACT --- */
+/* ---------------------------------------------------------------- */
+#contact{
+    height: 13vh;
+    width: 100%;
+}
+
+.contact{
+    margin-bottom: 10vh;
+    height: 60vh;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_item1{
+    margin-top: 2vh;
+    height: 55vh;
+    width: 45vw;
+    margin-left: 2vw;
+
+    display: flex;
+    flex-direction: column;
+}
+.contact_item1 h4{
+    font-family: sans-serif; 
+    font-weight: 500;
+    margin-left: 5vw;
+}
+.contact_item1 input{
+    height: 5vh;
+    width: 70%;
+    margin-left: 5vw;
+}
+.contact_item1 textarea{
+    width: 70%;
+    margin-left: 5vw;
+}
+.contact_item1 button{
+    height: 5vh;
+    width: 20%;
+    margin-left: 16vw;
+    color: black;
+    background-color: white;  
+    border: red 1px solid;
+}
+.contact_item1 button:hover{ 
+    color: white;
+    background-color: red;
+    border: none; 
+}
+
+.contact_item2{
+    margin-top: 2vh;
+    height: 55vh;
+    width: 45vw;
+    border: 1px solid black;
+    margin-right: 2vw;
+}
+.contact_item2 h4{
+    font-family: sans-serif;
+    font-weight: 500;
+}

@@ -1,0 +1,5 @@
+.container .img{
+    background-image: url('../image/WRC.jpeg');
+    background-size: cover;
+    background-position: -3vw;
+}

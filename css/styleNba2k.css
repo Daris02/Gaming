@@ -1,0 +1,5 @@
+.container .img{
+    background-image: url('../image/nba2k.jpeg');
+    background-size: cover;
+    background-position: -1vw;
+}

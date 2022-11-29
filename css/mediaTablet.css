@@ -1,0 +1,55 @@
+@media screen and (max-width: 1280px) and (min-width: 481px) {
+    /* ---  HEADER  --- */
+    /* ---------------------------------------------------------------- */
+    .header{
+        height: 80vh;
+        width: 100.9%;
+    }
+    
+    .header .font{
+        top: -80vh;
+        height: 80vh;
+    }
+    
+    .header_backgorund{
+        height: 80vh;
+    }
+
+    /* ---  NAVBAR  --- */
+    /* ---------------------------------------------------------------- */
+    .btn_menu .navbar{
+        position: sticky;
+        top: 2vh;
+        margin-top: 1vh;
+    }
+
+    .second{
+        left: 84vw;
+    }
+
+
+    /* ---  CONTENT ** (MEDIA QUERY) --- */
+    /* ---------------------------------------------------------------- */
+    .btn_monter{
+        position: fixed;
+        top: 94%;
+    }
+
+
+    /* ---  CONTENT ==  CATEGORY --- */
+    /* ---------------------------------------------------------------- */
+    #h2-1{
+        bottom: -7vh;
+    }
+    #h2-2{
+        bottom: -57vh;
+    }
+    #h2-3{
+        bottom: -107vh;
+    }
+    #h2-4{
+        bottom: -157vh;
+    }
+
+
+}
