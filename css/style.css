@@ -11,7 +11,7 @@ html{
     box-shadow: 0 0 1em black;
 }
 
-.header .font{
+.header .logoGaming{
     z-index: 1;
     position: relative;
     top: -90vh;
@@ -20,7 +20,7 @@ html{
     background-color: rgba(255, 255, 255, 0.037);
 }
 
-.header .font img{
+.header .logoGaming a img{
     height: 8vh;
     width: 15vw;
     position: relative;
@@ -28,7 +28,7 @@ html{
     left: 2vw;
     transition: .5s;
 }
-.header .font img:hover{
+.header .logoGaming a img:hover{
     transform: scale(1.1);
 }
 
@@ -41,7 +41,7 @@ html{
 
 .header_background figure{
     position: relative;
-    top: -15vh;
+    top: -12vh;
     width: 400%;
     margin: 0;
     left: 0;
@@ -251,7 +251,7 @@ h2{
 }
 
 .category .img .heading{
-    background-color: rgba(153, 153, 153, 0.348);
+    background-color: rgba(0, 0, 0, 0.404);
     height: 8vh;
     width: auto;
     padding-left: 5px;

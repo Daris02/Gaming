@@ -7,15 +7,88 @@
     display: flex;
     flex-direction: row;
 }
+
 .container div{
     margin-top: 4vh;
     margin-left: 2vw;
 }
+
 .container .img{
     height: 85.5vh;
     width: 30%;
-    animation: slideRigth 1s ease-in-out;
+    animation: slideRigth 2s ease-in-out;
 }
+
+.container .info{
+    margin-left: 5vw;
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.container .info h2{
+    color: black;
+}
+
+.container .info hr{
+    width: 100%;
+    background: red;
+    padding: 1px 0px;
+    margin-right: 0;
+    animation: widthProgress 2s ease-in-out ;
+}
+
+.container .info p{
+    margin: 5px;
+}
+
+.container .info ul{
+    margin-top: -2vh;
+    margin-left: -2vw;
+}
+
+.container .info ul li{
+    list-style: none;
+}
+.container .info ul li::before{
+    content: '- ';
+    color: red;
+    margin: 0px 5px;
+}
+
+.container .info .btn{
+    margin-left: 0vw;
+    height: 5vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container .info .btn .buy{
+    width: 50%;
+    background-color: rgba(51, 255, 0, 0.814);
+    border: none;
+    color: white;
+}
+.container .info .btn .buy:hover{
+    background-color: rgba(51, 255, 0);    
+}
+
+.container .info .btn .try{
+    margin-left: 2vw;
+    width: 50%;
+    background-color: rgba(255, 25, 0, 0.673);
+    border: none;
+    color: white;
+}
+.container .info .btn .try:hover{
+    background-color: rgba(255, 25, 0);  
+}
+
+/* KEYFRAMES ----------- */
 @keyframes slideRigth {
     0%{
         position: relative;
@@ -28,40 +101,19 @@
         opacity: 1;
     }
 }
-.container .info{
-    margin-left: 5vw;
-    height: 80vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
+@keyframes opacityPlus {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
-.container .info p{
-    margin: 5px;
-}
-.container .info .btn{
-    margin-left: 0vw;
-    height: 5vh;
-    width: 40%;
-    /* border: 1px red solid; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.container .info .btn .buy{
-    width: 50%;
-    background-color: rgba(0, 255, 4, 0.673);
-    border: none;
-}
-.container .info .btn .buy:hover{
-    background-color: rgba(0, 255, 4, 0.915);    
-}
-.container .info .btn .try{
-    margin-left: 2vw;
-    width: 50%;
-    background-color: rgba(234, 255, 0, 0.673);
-    border: none;    
-}
-.container .info .btn .try:hover{
-    background-color: rgba(234, 255, 0, 0.915);  
+@keyframes widthProgress {
+    0%{
+        width: 5%;
+    }
+    100%{
+        width: 100%;
+    }
 }
