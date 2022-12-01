@@ -350,7 +350,6 @@ h2{
     margin-top: 20vh;
     height: 20vh;
     width: 45vw;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,7 +362,6 @@ h2{
 .contact_item2 .img{
     height: 15vh;
     width: 80%;
-    border: 1px solid black;
     margin-bottom: 2vh;
 
     display: flex;
@@ -371,6 +369,10 @@ h2{
     justify-content: space-between;
 }
 .contact_item2 .img img{
-    height: 10vh;
+    height: 8vh;
     width: 5vw;
+    transition: .5s;
+}
+.contact_item2 .img img:hover{
+    transform: scale(1.1);
 }
