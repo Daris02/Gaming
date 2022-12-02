@@ -102,16 +102,16 @@
         bottom: 65vh;
     }
     #h2-2{
-        bottom: -32vh;
+        bottom: -27vh;
     }
     #h2-3{
-        bottom: -97vh;
+        bottom: -117vh;    
     }
     #h2-4{
-        bottom: -193vh;
+        bottom: -207vh;
     }
     #h2-5{
-        bottom: -258vh;
+        bottom: -298vh;
     }
 
     .category .img{
@@ -150,6 +150,7 @@
     }
 
     .contact{
+        margin-top: 15vh;
         height: 80vh;
         width: 100%;
         flex-direction: column;
@@ -168,4 +169,34 @@
         width: 10vw;
     }
 
+    /* ---  ELEMENT SPECIFIQUE  --- */
+    /* ---------------------------------------------------------------- */
+    #callOfDuty{
+        margin-right: 24vw;
+        margin-left: 22vw;
+    }
+    #needForSpeed{
+        margin-left: 3vw;
+    }
+    #f1{
+        margin-right: 24vw;
+        margin-left: 22vw;
+    }
+    #godOfWar{
+        margin-left: 3vw;
+    }
+    #batman{
+        margin-right: 24vw;
+        margin-left: 22vw;
+    }
+    #fifa{
+        margin-left: 3vw;
+    }
+    #steep{
+        margin-right: 24vw;
+        margin-left: 22vw;
+    }
+    #warcraft{
+        margin-left: 3vw;
+    }
 }

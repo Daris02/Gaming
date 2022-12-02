@@ -1,18 +1,43 @@
 @media screen and (max-width: 1280px) and (min-width: 781px) {
+    *{
+        margin: 0;padding: 0;
+    }
     /* ---  HEADER  --- */
     /* ---------------------------------------------------------------- */
     .header{
-        height: 80vh;
-        width: 100.9%;
+        height: 70vh;
+        width: 100%;
+        margin-top: -1.5vh;
     }
-    
+
     .header .font{
-        top: -80vh;
-        height: 80vh;
+        top: -20vh;
+        height: 70vh;
+    }
+
+    .header .font img{
+        height: 5vh;
+        width: 30vw;
+        top: 2vh;
+        left: 2vw;
+    }
+
+    .header_background{ 
+        height: 70vh;
     }
     
-    .header_backgorund{
-        height: 80vh;
+    .header_background figure{
+        top: -3vh;
+        width: 400%;
+    }
+
+    .header .logoGaming{
+        position: absolute;
+        width: 20vw;
+        top: 80vh;
+        left: 40%;
+        height: 2vh;
+        transform: scale(1.5);
     }
 
     /* ---  NAVBAR  --- */
@@ -20,11 +45,14 @@
     .btn_menu .navbar{
         position: sticky;
         top: 2vh;
-        margin-top: 1vh;
+    }
+    .btn_menu .navbar .more p{
+        margin-top: 1.5vh;
     }
 
     .second{
-        left: 84vw;
+        left: 85.5vw;
+        top: 7vh;
     }
 
 
@@ -38,18 +66,53 @@
 
     /* ---  CONTENT ==  CATEGORY --- */
     /* ---------------------------------------------------------------- */
+    .category{
+        margin-top: 12vh;
+    }
     #h2-1{
-        bottom: -7vh;
+        bottom: -3vh;
     }
     #h2-2{
-        bottom: -57vh;
+        bottom: -53vh;
     }
     #h2-3{
-        bottom: -107vh;
+        bottom: -103vh;
     }
     #h2-4{
-        bottom: -157vh;
+        bottom: -153vh;
+    }
+    #h2-5{
+        bottom: -203vh;
     }
 
+    .category .img .heading h4{
+        font-family: sans-serif;
+        font-weight: 400;
+        color: white;
+        margin-top: 0.5vh;
+    }
+    .category .img .heading p{
+        font-family: sans-serif;
+        color: white;
+        margin-top: 1.5vh;
+    }
+    .category .img .heading a button{
+        margin-top: 1vh;
+    }
 
+    /* ---  CONTENT ==  CONTACTE --- */
+    /* ---------------------------------------------------------------- */
+    
+    .contact_item1{
+        width: 52vw;
+    }
+    .contact_item1 h4{
+        margin-bottom: 2vh;
+    }
+    .contact_item2{
+        width: 50vw;
+    }
+    .contact_item2 h4{
+        margin-bottom: 2vh;
+    }
 }
